@@ -1,0 +1,19 @@
+#################################################################
+# This is for keep information for each version of the inputdata 
+#################################################################
+
+# inputdata_version1.0.0_******.tar (created by Hui Tang (https://orcid.org/0000-0002-8745-3859), using tools from https://github.com/NordicESMhub/ctsm/blob/release-emerald-platform1.0.0/tools/prepare_inputdata.sh)
+ - Inputdata derived from default global surface data set
+ - Atmospheric forcing from GSWP3v1 is included. 
+ - Should work with model platform: release-emerald-platform1.*.*
+ - Original global dataset can all be found at: https://svn-ccsm-inputdata.cgd.ucar.edu/trunk/inputdata/
+# inputdata_version2.0.0_******.tar (create by Hui Tang (https://orcid.org/0000-0002-8745-3859), using tools from https://github.com/NordicESMhub/ctsm/tree/release-emerald-platform2.0.1/tools/emerald_sites_tools)
+ - Same as version version1.0.0, except two addition input files required by fire module are included. 
+ - Should work with model platform:release-emerald-platform2.*.*
+ - Original global dataset can all be found at: https://svn-ccsm-inputdata.cgd.ucar.edu/trunk/inputdata/
+
+For the details of the global input dataset, please refer to:
+
+Lawrence, D. M., Fisher, R. A., Koven, C. D., Oleson, K. W., Swenson, S. C., Bonan, G., et al. (2019). The Community Land Model version 5: Description of new features, benchmarking, and impact of forcing uncertainty. Journal of Advances in Modeling Earth Systems, 11, 4245–4287. https://doi.org/10.1029/2018MS001583
+
+CLM Technical Note: https://escomp.github.io/ctsm-docs/versions/master/html/tech_note/index.html
